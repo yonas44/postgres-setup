@@ -11,4 +11,4 @@ CREATE TABLE animals(
 
 -- Update the table to have a new column with varchar data-type
 ALTER TABLE animals 
-ADD species varchar(255)
+ADD COLUMN species varchar(255);
