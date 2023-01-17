@@ -26,22 +26,7 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-<p align="center">
-  <img style="width: 80%;" src="./src/Assets/big1.png" />
-</p>
-
-<!-- <div align="center">
-
-  <span align="left" style="width: 250px;">
-     <img style="width: 200px;" src="./src/Assets/small 1.png" />
-  </span>
-
-  <span align="right">
-     <img style="width: 200px;" src="./src/Assets/small 2.png" />
-  </span>
-</div> -->
-
-# 📖 My Weather app <a name="about-project"></a>
+# 📖 Vet Clinic DataBase <a name="about-project"></a>
 
 In this Repo I use PostgreSQL to create a relational database for a vet clinic.
 
@@ -60,10 +45,17 @@ In this Repo I use PostgreSQL to create a relational database for a vet clinic.
 <details>
   <summary>Server</summary>
   <ul>
+  <li>PostgreSQL</li>
   </ul>
 </details>
 
 <!-- Features -->
+
+## Key Features
+
+- Create a table using `CREATE TABLE table_name()`
+- Add entries using `INSERT INTO table_name VALUES()`
+- Write queries to get information from the table
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -81,12 +73,6 @@ In this Repo I use PostgreSQL to create a relational database for a vet clinic.
 
 To get a local copy up and running, follow these steps.
 
-### Prerequisites
-
-In order to run this project you need:
-
--
-
 ### Setup
 
 Clone this repository to your desired folder:
@@ -102,14 +88,14 @@ Clone this repository to your desired folder:
 👤 **Author**
 
 - GitHub: [@yonas44](https://github.com/yonas44)
-- LinkedIn: [Yonas Tesfu](linkedin.com/in/yonas-tesfu-3284811a9)
+- LinkedIn: [Yonas Tesfu](linkedin.com/in/yonas-tesfu)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Contributing
 
 Contributions, issues, and feature requests are welcome!
-Feel free to check the [issues page](https://github.com/yonas44/space-travelers-hub/issues).
+Feel free to check the [issues page](https://github.com/yonas44/postgres-setup/issues).
 
 ## Show your support
 
