@@ -6,6 +6,9 @@ CREATE TABLE animals(
 	date_of_birth DATE,
 	escape_attempts INT,
 	neutered BOOLEAN,
-	weight_kg DECIMAL,
-	species VARCHAR
+	weight_kg DECIMAL
 );
+
+-- Update the table to have a new column with varchar data-type
+ALTER TABLE animals 
+ADD species varchar(255)
