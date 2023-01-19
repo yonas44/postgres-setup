@@ -44,3 +44,22 @@ ADD FOREIGN KEY(species_id)
 ALTER TABLE animals
 ADD FOREIGN KEY(owner_id)
 	REFERENCES owners(id);
+
+/* DAY-4 */
+
+-- 1. Create vets table
+
+CREATE TABLE vets(
+	id INT GENERATED ALWAYS AS IDENTITY,
+	name VARCHAR(255),
+	age INT,
+	date_of_graduation DATE,
+	PRIMARY KEY(id)
+);
+
+-- 2. Create specialization table for holding relationship between vets and species
+
+CREATE TABLE specialization(
+	vet_id INT,
+	species_id INT
+);
