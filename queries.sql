@@ -214,3 +214,10 @@ SELECT s.name AS speciality_should_learn FROM
 	ORDER BY treatment_count DESC
 	LIMIT 1) AS ds
 JOIN species s ON ds.species_id = s.id;
+
+------------- /* WEEK 2 Performance demo */ -------------------
+-- Day-1
+
+explain analyze SELECT COUNT(*) FROM visits where animals_id = 4;
+explain analyze SELECT * FROM visits where vet_id = 2;
+explain analyze SELECT * FROM owners where email = 'owner_18327@mail.com';
