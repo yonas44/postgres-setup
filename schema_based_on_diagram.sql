@@ -57,3 +57,12 @@ CREATE TABLE medical_treatment_histories (
     md_history_id INT REFERENCES medical_histories(id),
     treatment_id INT REFERENCES treatments(id)
 );
+
+-- Add indexes for optimized query performance
+
+CREATE INDEX FK_patient_id_index ON medical_histories(patient_id);
+CREATE INDEX FK_treatment_id_index ON invoice_items(treatment_id);
+CREATE INDEX FK_invoice_id_index ON invoice_items(invoice_id);
+CREATE INDEX FK_md_history1_id_index ON invoices(medical_history_id);
+CREATE INDEX FK_md_history_id2_index ON medical_treatment_histories(md_history_id);
+CREATE INDEX FK_treatment_id2_index ON medical_treatment_histories(treatment_id);
