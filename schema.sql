@@ -63,3 +63,12 @@ CREATE TABLE specialization(
 	vet_id INT,
 	species_id INT
 );
+
+------------- /* WEEK 2 Performance demo */ -------------------
+-- Day-1
+
+CREATE INDEX visits_animals_id ON visits(animals_id);
+
+CREATE INDEX visits_vet_id ON visits(vet_id);
+
+CREATE INDEX owners_email ON owners(email);
