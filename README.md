@@ -84,6 +84,13 @@ Clone this repository to your desired folder:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] Add new Database with complex table relationships.
+- [ ] Query multiple databases.
+- [ ] Join multiple tables to make complex queries.
+- [ ] Backup database for security.
+
 ## Contributing
 
 Contributions, issues, and feature requests are welcome!
