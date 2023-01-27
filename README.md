@@ -26,6 +26,10 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
+<p align="center">
+  <img style="width: 80%;" src="./assets/schema.png" />
+</p>
+
 # 📖 Vet Clinic DataBase <a name="about-project"></a>
 
 In this Repo I use PostgreSQL to create a relational database for a vet clinic.
